@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #283593;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.main-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: #3949ab;
+}
+
+.main-menu ul li {
+    margin: 0 15px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.main-menu ul li a:hover {
+    background: #5c6bc0;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.center-image {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #283593;
+}
+
+/* Info Box */
+.info-box {
+    background: #e3f2fd;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h2 {
+    text-align: center;
+    color: #283593;
+}
+
+.info-box p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Achievements Section */
+.achievements-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.achievements-section h2 {
+    color: #283593;
+}
+
+.achievements-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.achievements-gallery a {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    max-width: 200px;
+}
+
+.achievements-gallery img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    transition: transform 0.3s;
+}
+
+.achievements-gallery img:hover {
+    transform: scale(1.05);
+    border-color: #283593;
+}
+
+/* Footer */
+.footer {
+    background-color: #283593;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
